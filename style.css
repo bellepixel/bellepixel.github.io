@@ -1,7 +1,54 @@
- body {
- 	font-family: "Quicksand";
- }
+
+.cont {
+	max-width: 80%;
+}
+
+header {	
+	display: flex;
+	justify-content:space-between;
+	width: 100%;
+	padding: 20px 20px 0 20px;
+
+
+}
+
+h1 {
+	font-family: Quicksand;
+	margin: 0;
+}
+
+.glyphicon {
+	font-size: 25px;
+	color: black;
+	padding: 5px;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	padding: 0;
+}
+
+li {
+	display:inline;
+}
 
 img {
- 	width: 200px;
- }
+	display: flex;
+	justify-content: center;
+	width: 25%;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.blockquote {
+	margin: 20px;
+	padding: 5px;
+	font-size: 2rem;
+}
+
+.byline {
+	margin-right: 50px;
+	text-align: right;
+	font-size: 2rem;
+}
